@@ -11,7 +11,7 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.png"
+  avatar = "profile.jpg"
   author = "Jeffrey Simpson"
   description = "Describe your website"
 
@@ -34,11 +34,11 @@ theme = "hugo-sustain"
 #   weight = 100
 #   identifier = "blog"
 #   url = "/blog/"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
+# [[menu.main]]
+#   name = "projects"
+#   identifier = "projects"
+#   weight = 200
+#   url = "/projects/"
 [[menu.main]]
   name = "resume"
   identifier = "resume"
