@@ -20,20 +20,30 @@ theme = "hugo-sustain"
   custom_js  = []
 
 [params.social]
-  Github        = "jeffreysimpson"
   Email         = "jeffrey.simpson@unsw.edu.au"
   Twitter       = "fadastra"
+  Github        = "jeffreysimpson"
   ADS           = "0000-0002-8165-2507"
   # Stackoverflow = "username"
   # Medium        = "username"
   # Telegram      = "username"
 
 ## Main Menu
-# [[menu.main]]
-#   name = "blog"
-#   weight = 100
-#   identifier = "blog"
-#   url = "/blog/"
+[[menu.main]]
+  name = "Email"
+  weight = 100
+  identifier = "email"
+  url = "mailto:jeffrey.simpson@unsw.edu.au"
+[[menu.main]]
+    name = "Twitter"
+    weight = 100
+    identifier = "Twitter"
+    url = "https://twitter.com/fadastra"
+[[menu.main]]
+    name = "CV"
+    weight = 100
+    identifier = "CV"
+    url = "cv.pdf"
 # [[menu.main]]
 #   name = "projects"
 #   identifier = "projects"
