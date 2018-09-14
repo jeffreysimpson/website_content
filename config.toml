@@ -43,7 +43,7 @@ theme = "hugo-sustain"
     name = "CV"
     weight = 100
     identifier = "CV"
-    url = "https://github.com/jeffreysimpson/new-cv/raw/master-pdf/cv.pdf"
+    url = "cv.pdf"
 # [[menu.main]]
 #   name = "projects"
 #   identifier = "projects"
