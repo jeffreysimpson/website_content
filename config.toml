@@ -1,56 +1,27 @@
 baseurl = "https://fadastra.xyz/"
 languageCode = "en-US"
 title = "Jeffrey Simpson"
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
-theme = "hugo-sustain"
+theme = "hallo"
 
-[permalinks]
-  post = "/:year/:month/:day/:slug"
+[Author]
+    name = "Jeffrey Simpson"
 
 [params]
   avatar = "profile.jpg"
   author = "Jeffrey Simpson"
-  description = "Describe your website"
-
-  # Custom assets can be linked with their paths relative to static/
-  custom_css = []
-  custom_js  = []
-
-[params.social]
-  Email         = "jeffrey.simpson@unsw.edu.au"
-  Twitter       = "fadastra"
-  Github        = "jeffreysimpson"
-  ADS           = "0000-0002-8165-2507"
-  # Stackoverflow = "username"
-  # Medium        = "username"
-  # Telegram      = "username"
-
-## Main Menu
-[[menu.main]]
-  name = "Email"
-  weight = 100
-  identifier = "email"
-  url = "mailto:jeffrey.simpson@unsw.edu.au"
-[[menu.main]]
-    name = "Twitter"
-    weight = 100
-    identifier = "Twitter"
-    url = "https://twitter.com/fadastra"
-[[menu.main]]
-    name = "CV"
-    weight = 100
-    identifier = "CV"
-    url = "https://github.com/jeffreysimpson/new-cv/raw/master-pdf/cv.pdf"
-# [[menu.main]]
-#   name = "projects"
-#   identifier = "projects"
-#   weight = 200
-#   url = "/projects/"
-# [[menu.main]]
-#   name = "resume"
-#   identifier = "resume"
-#   weight = 300
-#   url = "/resume/"
+  [[params.links]]
+      icon = "fas fa-envelope"
+      title = "Email"
+      url = "mailto:jeffrey.simpson@unsw.edu.au"
+  [[params.links]]
+      icon = "fab fa-twitter"
+      title = "Twitter"
+      url = "https://twitter.com/fadastra"
+  [[params.links]]
+      icon = "fab fa-github"
+      title = "Github"
+      url = "https://github.com/jeffreysimpson"
+  [[params.links]]
+      icon = "ai ai-ads"
+      title = "ADS"
+      url = "https://ui.adsabs.harvard.edu/#search/q=orcid%3A0000-0002-8165-2507"
