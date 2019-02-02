@@ -39,13 +39,15 @@ img.portrait {
 
 main {
   display: flex;
-  margin-top: 20vh; }
+  margin-top: 5vh; }
   main .column.left {
     text-align: end; }
   main .column.right h1 {
     margin-left: -10px;
     /* Correction for margin of leftmost character. */
-    margin-bottom: 0.4em; }
+    margin-bottom: 0.4em;
+    font-size: calc(100px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); }
   main .column.right h2 {
     margin-left: -4px;
     /* Correction for margin of leftmost character. */
