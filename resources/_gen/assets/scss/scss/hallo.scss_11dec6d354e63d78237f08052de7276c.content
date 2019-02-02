@@ -21,7 +21,8 @@ a {
     color: #333; }
 
 h1 {
-  font-size: 9rem; }
+  font-size: calc(100px + (150 - 100) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); }
 
 h2 {
   font-size: 3rem;
@@ -31,8 +32,8 @@ img.portrait {
   border-radius: 50%;
   border: 10px solid #fff;
   margin: 2em 3em;
-  width: 300px;
-  height: 300px; }
+  width: calc(210px + (300 - 210) * ((100vw - 300px) / (1600 - 300)));
+  height: calc(210px + (300 - 210) * ((100vw - 300px) / (1600 - 300))); }
 
 .column {
   flex: 1; }
@@ -45,9 +46,7 @@ main {
   main .column.right h1 {
     margin-left: -10px;
     /* Correction for margin of leftmost character. */
-    margin-bottom: 0.4em;
-    font-size: calc(100px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); }
+    margin-bottom: 0.4em; }
   main .column.right h2 {
     margin-left: -4px;
     /* Correction for margin of leftmost character. */
