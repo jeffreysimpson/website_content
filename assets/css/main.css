@@ -2320,7 +2320,7 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+			font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "Academicons";
 			font-style: normal;
 			font-weight: 900; /* regular style/weight */
 			text-transform: none !important;
