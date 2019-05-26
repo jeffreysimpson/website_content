@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+/* @import url(font-awesome.min.css); */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 
 /*
@@ -2220,9 +2220,9 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Free Solid", "Font Awesome 5 Free" !important;
 				font-style: normal;
-				font-weight: normal;
+				font-weight: 900; /* regular style/weight */
 				text-transform: none !important;
 			}
 
@@ -2320,9 +2320,9 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
 			font-style: normal;
-			font-weight: normal;
+			font-weight: 900; /* regular style/weight */
 			text-transform: none !important;
 		}
 
